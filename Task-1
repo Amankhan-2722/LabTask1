@@ -1,13 +1,19 @@
-public class Lab4Task1 {
-	public static void main(String [] args){
-		int x = 10;
-		int y = 15;
-		int z = 20;
-		
-	System.out.println("!(x>10)" + !(x>10) );
-	System.out.println(("x<= 5 || y<15") + (x<= 5 || y<15) );
-	System.out.println("(x != 5 )&&(y != z)" + ((x != 5 )&&(y != z)) );
-  System.out.println("x>= z || (x + y>= z)" + (x>= z || (x + y>= z)) );
-	System.out.println(("(x <= y – 2) && (y >= z) || (z – 2 != 20)") + ((x <= y – 2) && (y >= z) || (z – 2 != 20)) ); 
-		}
-	}
+import java.util.Scanner;
+public class LabTask1{
+     public static void main(String[] args){
+    
+                int num1;
+                int num2;
+                int num3;
+
+                num1 = 125;
+                num2 = 28;
+                num3 = -25;
+                float average = (num1 + num2 + num3)/3;
+
+                System.out.println("num1" + num1);
+                System.out.println("num2" + num2);
+                System.out.println("num3" + num3);
+                System.out.println("Average" + average);
+        }
+}
