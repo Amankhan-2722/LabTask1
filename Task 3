@@ -1,0 +1,39 @@
+import java.util.*;
+  public class LabTask3{
+
+  public static void main(String [] args){
+  Scanner console = new Scanner(System.in);
+
+  int SECRET = 11;
+  double Rate = 12.50;
+  int num1;
+  int num2;
+  int newNum;
+  String name;
+  double hoursWorked;
+  double wages;
+
+  System.out.println("Enter num1: ");
+  num1 = console.nextInt();
+  System.out.println("the value of num1: " + num1);
+
+  System.out.println("Enter num2:");
+  num2 = console.nextInt();
+  System.out.println("the value of num2 : " + num2);
+
+  newNum = (num1 * 2) + num2;
+  System.out.println("The value of newNum : " + newNum);
+  System.out.println("Updated newNum with SECRET : " + (newNum + SECRET));
+
+  System.out.println("Enter person's last name:" + name);
+  name = console.nextInt();
+
+  System.out.println("Enter a decimal number between 0 and 70:" + hoursWorked);
+  hoursWorked = console.nextDouble();
+
+  wages = Rate * hoursWorked;
+
+  System.out.println("NAME:" + name);
+  System.out.println("Pay Rate:" + wages);
+    }
+}
